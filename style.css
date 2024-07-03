@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .roboto-thin {
@@ -106,13 +107,13 @@ footer {
 }
 
 nav a, p[data-testid="slackEmail"] {
-    display: inline-block;
+    display: inline-flexbox;
     margin: 0 10px;
     text-decoration: none;
     color: #333;
-    border: 1px solid #333;
+    border: 1px solid #e7d9d9;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 
 nav a {
